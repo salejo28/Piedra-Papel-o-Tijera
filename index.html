@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rock, Paper and Scissors</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/7244f7bc2d.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <div class="modal">
+        <h1 class="title">Piedra, Papel y Tijera</h1>
+        <div class="grid">
+            <div class="content">
+                <p>
+                    Este es un juego tradicional de todo niño y adulto,
+                    donde uno apostaba por ejemplo quien sacaba primero (en futbol)
+                    quien comezaba primero en cualquier cosa y así.
+                    Ahora aca tu vas a probar tu suerte contra el Computador.
+                    El que llegue a dieaz puntos gana ¿Seras capaz de ganarle a la
+                    maquina?
+                </p>
+            </div>
+            <div class="choices-start">
+
+                <div class="choice-start">
+                    <i class="fas fa-hand-rock"></i>
+                </div>
+                <div class="choice-start">
+                    <i class="fas fa-hand-paper"></i>
+                </div>
+                <div class="choice-start">
+                    <i class="fas fa-hand-scissors"></i>
+                </div>
+
+            </div>
+        </div>
+        <div class="start">
+            <h1>Quieres Comenzar?</h1>
+            <button class="btn-start">Comienza</button>
+        </div>
+    </div>
+
+    <header>
+        <h1>Piedra, Papel y Tijera Game</h1>
+    </header>
+
+    <div class="re-start">
+        <button class="btn-tryAgain" id="try-again"><i class="fas fa-redo-alt"></i></button>
+    </div>
+
+    <div class="scrore-board">
+        <div class="badge" id="user">Tu</div>
+        <div class="badge" id="computer">Computador</div>
+        <span id="user-score">0 </span>:<span id="computer-score"> 0</span>
+    </div>
+
+    <div class="result">
+        <p>Paper cover Rock, you win</p>
+    </div>
+
+    <div class="choices">
+        <div class="choice" id="r">
+            <i class="fas fa-hand-rock"></i>
+        </div>
+        <div class="choice" id="p">
+            <i class="fas fa-hand-paper"></i>
+        </div>
+        <div class="choice" id="s">
+            <i class="fas fa-hand-scissors"></i>
+        </div>
+    </div>
+
+    <div id="action-message">Haz Tu Movimiento</div>
+
+    <div class="modal_2" id="modal-2">
+        
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
